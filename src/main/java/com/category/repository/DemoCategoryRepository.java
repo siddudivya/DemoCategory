@@ -9,6 +9,6 @@ import org.springframework.stereotype.Repository;
 import com.category.model.Category;
 
 @Repository
-public interface DemoCategoryRepository extends CrudRepository<Category, Serializable>{
+public interface DemoCategoryRepository extends JpaRepository<Category, Serializable>{
 
 }
